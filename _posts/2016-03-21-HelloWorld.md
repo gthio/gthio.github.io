@@ -1,13 +1,23 @@
 ---
 layout: post
-title: Hello!!
+title: Say hello to the world!!
 ---
 
-Say hello to the world
+#### C
+{% highlight C linenos %}
+
+#include<stdio.h>
+
+main()
+{
+    printf("Hello world");
+}
+
+{% endhighlight %}
+
 
 #### C Sharp
-
-```CSharp
+{% highlight C# linenos %}
 
 using System;
 
@@ -19,44 +29,12 @@ public class Hello
    }
 }
 
-```
-
-#### Swift
-
-
-```Swift
-
-print("Hello world")
-
-```
-
-#### C
-
-```C
-
-#include<stdio.h>
-
-main()
-{
-    printf("Hello world");
-}
-
-```
-
-
-#### Javascript
-
-```javascript
-(function() {
-  console.log('Hello world');
-})();
-
-```
+{% endhighlight %}
 
 
 #### GO
+{% highlight Go linenos %}
 
-```Go
 package main
 
 import "fmt"
@@ -64,39 +42,48 @@ import "fmt"
 func main() {
     fmt.Println("Hello world")
 }
-```
+
+{% endhighlight %}
 
 
-#### SQL
+#### Javascript
+{% highlight JavaScript linenos %}
 
-```SQL
-PRINT 'Hello world'
-```
+(function() {
+  console.log('Hello world');
+})();
+
+{% endhighlight %}
 
 
-### R
+####Python
+{% highlight python linenos %}
 
-```R
+print "Hello world"
+
+{% endhighlight %}
+
+
+#### R
+{% highlight R linenos %}
 
 a <- print("Hello world")
 a
 
-```
+{% endhighlight %}
 
-###Python
-```Python
-print "Hello world"
-```
 
-###Pascal
-```Pascal
+#### SQL
+{% highlight SQL linenos %}
 
-program HelloWorld;
+PRINT 'Hello world'
 
-begin
-  writeln('Hello world');
-end.
+{% endhighlight %}
 
-```
-###
 
+#### Swift
+{% highlight Swift linenos %}
+
+print("Hello world")
+
+{% endhighlight %}

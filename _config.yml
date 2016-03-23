@@ -1,9 +1,9 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
+markdown: redcarpet
+highlighter: rouge
+  
 # Permalinks
-permalink:        pretty
+permalink: pretty
   
 # Gems
 gems: [jekyll-paginate, jekyll-gist]
@@ -11,6 +11,7 @@ paginate: 5
 paginate_path: "page:num"
 
 # Setup
+tagline: 'gthio - blog'
 baseurl: /
 
 # My info
